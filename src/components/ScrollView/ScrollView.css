@@ -1,0 +1,16 @@
+.scroll-view{
+    display: flex;
+    flex-direction: column;
+    background-color: #DFE0E5;
+    overflow-y: scroll;
+    width: 40%;
+    margin-right: 50%;
+    height: 700px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-view-area{
+    margin-top: 630px;
+}
