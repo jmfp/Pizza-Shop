@@ -1,27 +1,29 @@
 import React from "react";
+import { useState } from "react";
 import ScrollView from "../components/ScrollView/ScrollView";
 import Button from "../components/Button/Button";
 import IngredientSelection from "../components/ingredient selection/IngredientSelection";
 import '../App.css'
 
-export default function CustomPizza(){
+export default function CustomPizza(props){
+    const [ingredientsOnPizza, setIngredientsOnPizza] = useState();
+    const allIngredients = props.allIngredients;
+    const ingredientElements = allIngredients.map((val) => 
+        <IngredientSelection ingredientName={val} />
+    )
+    const [itemsInCart, setITemsInCart] = useState(props.itemsInCart);
+    const addItemToCart = function(props){
+        //add a new pizza to the cart with a price of all of the ingredients together + 4.99, this is just test data, we can set this later
+        //for now, all ingredients are 99 cents
+        setITemsInCart([...itemsInCart, {"itemName": "Custom Pizza", "itemPrice": `24.99`, "quantity": `2`}]);
+        console.log(itemsInCart);
+    }
     return(
         <div className="App-header">
             <ScrollView>
-              <IngredientSelection ingredientName="Pepperoni"/>
-              <IngredientSelection ingredientName="Sausage"/>
-              <IngredientSelection ingredientName="Chicken"/>
-              <IngredientSelection ingredientName="Bacon"/>
-              <IngredientSelection ingredientName="Beef"/>
-              <IngredientSelection ingredientName="Jalapenos"/>
-              <IngredientSelection ingredientName="Onions"/>
-              <IngredientSelection ingredientName="Banana Peppers"/>
-              <IngredientSelection ingredientName="Spinach"/>
-              <IngredientSelection ingredientName="Black Olives"/>
-              <IngredientSelection ingredientName="Mushrooms"/>
-              <IngredientSelection ingredientName="Tomatoes"/>
+              {ingredientElements}
             </ScrollView>
-        <Button text= "Submit" destination= "./screens/CustomPizza.js"/>
+        <Button text= "Submit" destination= " " onClick={addItemToCart}/>
         </div>
     )
 }
