@@ -9,6 +9,12 @@ import Home from './screens/Home';
 import ItemTemplate from './screens/ItemTemplate';
 import LoginPage from './screens/LoginPage';
 import CartPage from './screens/CartPage'
+import PaymentMethod from './screens/PaymentMethod';
+import UserInfo from './screens/UserInfo';
+import Admin from './screens/Admin';
+import Header from './components/Header/Header'
+import Menu from './screens/Menu';
+import Login from './screens/Login';
 
 function App() {
   //test data for items in a cart in JSON format
@@ -21,15 +27,25 @@ function App() {
     'Spinach', 'Olives', 'Mushrooms', 'Tomatoes'
   ]
 
+  //test data for users
+  const userInfo = [
+    {"firstName": "Jessie", "lastName": "Price", "email": "awesome@mail.com", "phoneNumber": "555-5555", "address": "1 one rd", "city": "Townsville", "state": "Ohio", "zip": "44444"}
+  ]
+
   return (
     <div className="App">
     <Router>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/custom" element={<CustomPizza itemsInCart={itemsInCart} allIngredients={ingredients}/>}/>
         <Route path="/item-template" element={<ItemTemplate />}/>   
-        <Route path="/login" element={<LoginPage />}/>   
+        <Route path="/login" element={<Login />}/>   
         <Route path="/cart" element={<CartPage itemsInCart = {itemsInCart} />}/>
+        <Route path="/add-payment-method" element={<PaymentMethod />}/>
+        <Route path="/user-info" element={<UserInfo data={userInfo}/>} />
+        <Route path="/employee" element={<Admin />}/>
+        <Route path="menu" element={<Menu />}/>
       </Routes>
     </Router>
     </div>

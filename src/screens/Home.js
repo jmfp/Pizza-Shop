@@ -1,11 +1,15 @@
-import React from "react";
-import Square from "../components/Button/Square";
-import '../App.css'
+const Home = () => {
+    const imgSrc = require('../screens/images/fire-pizza.jpg')
+    const imgAlt = 'alt'
 
-export default function Home(){
-    return(
-        <div className="App-header">           
-            <Square text= "Create Order" destination= "/custom"/>
+    return (
+        <div className='home'>
+            <div className='heroImg'>
+                <img src={imgSrc} alt={imgAlt}/>
+            </div>
+            <h1>Welcome</h1>
         </div>
     )
 }
+
+export default Home

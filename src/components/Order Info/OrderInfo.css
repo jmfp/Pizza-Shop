@@ -1,0 +1,13 @@
+.order-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-width: 30%;
+    height: 200px;
+    background-color:azure;
+    border-radius: 50px;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+}

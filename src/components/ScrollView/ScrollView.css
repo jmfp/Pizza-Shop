@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #DFE0E5;
     overflow-y: scroll;
-    width: 40%;
+    min-width: 600px;
     margin-right: 50%;
     height: 700px;
     border-radius: 50px;

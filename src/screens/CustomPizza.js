@@ -14,15 +14,19 @@ export default function CustomPizza(props){
     const [itemsInCart, setITemsInCart] = useState(props.itemsInCart);
     const addItemToCart = function(props){
         //add a new pizza to the cart with a price of all of the ingredients together + 4.99, this is just test data, we can set this later
-        //for now, all ingredients are 99 cents
+        //for now, all ingredients are 99 cents for testing
         setITemsInCart([...itemsInCart, {"itemName": "Custom Pizza", "itemPrice": `24.99`, "quantity": `2`}]);
         console.log(itemsInCart);
     }
     return(
         <div className="App-header">
-            <ScrollView>
-              {ingredientElements}
-            </ScrollView>
+            <div className="App-box">
+
+                <ScrollView>
+                {ingredientElements}
+                </ScrollView>
+                <img src="https://images.pexels.com/photos/2969706/pexels-photo-2969706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" height={600} width={800} style={{borderRadius: '50px'}}></img>
+            </div>
         <Button text= "Submit" destination= " " onClick={addItemToCart}/>
         </div>
     )

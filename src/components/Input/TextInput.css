@@ -2,3 +2,18 @@
     width: '30%';
     height: '60px';
 }
+
+.credit-card{
+    width: 30%;
+    min-height: 30px;
+}
+
+.input-short{
+    width: 5%;
+    min-height: 30px;
+}
+
+.input-medium{
+    width: 7%;
+    min-height: 30px;
+}

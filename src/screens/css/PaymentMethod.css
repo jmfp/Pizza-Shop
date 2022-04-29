@@ -1,0 +1,17 @@
+.payment-method-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self:left;
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: left;
+    margin-top: 10px;
+}
