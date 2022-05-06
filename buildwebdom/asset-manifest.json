@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1532f96c.css",
+    "main.js": "/static/js/main.0a9782c4.js",
+    "static/js/787.0d53c42f.chunk.js": "/static/js/787.0d53c42f.chunk.js",
+    "static/media/pizza.png": "/static/media/pizza.f3a2c47c0576e512e286.png",
+    "static/media/fire-pizza.jpg": "/static/media/fire-pizza.fc53f5818883ce4f02e9.jpg",
+    "static/media/logo_white.png": "/static/media/logo_white.564fc8ca4b0104a8f2fd.png",
+    "index.html": "/index.html",
+    "main.1532f96c.css.map": "/static/css/main.1532f96c.css.map",
+    "main.0a9782c4.js.map": "/static/js/main.0a9782c4.js.map",
+    "787.0d53c42f.chunk.js.map": "/static/js/787.0d53c42f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1532f96c.css",
+    "static/js/main.0a9782c4.js"
+  ]
+}

@@ -11,11 +11,11 @@ export default function CustomPizza(props){
     const ingredientElements = allIngredients.map((val) => 
         <IngredientSelection ingredientName={val} />
     )
-    const [itemsInCart, setITemsInCart] = useState(props.itemsInCart);
+    const [itemsInCart, setIemsInCart] = useState(props.itemsInCart);
     const addItemToCart = function(props){
         //add a new pizza to the cart with a price of all of the ingredients together + 4.99, this is just test data, we can set this later
         //for now, all ingredients are 99 cents for testing
-        setITemsInCart([...itemsInCart, {"itemName": "Custom Pizza", "itemPrice": `24.99`, "quantity": `2`}]);
+        setIemsInCart([...itemsInCart, {"itemName": "Custom Pizza", "itemPrice": `24.99`, "quantity": `2`}]);
         console.log(itemsInCart);
     }
     return(

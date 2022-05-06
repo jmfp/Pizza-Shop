@@ -6,8 +6,8 @@ const Home = () => {
         <div className='home'>
             <div className='heroImg'>
                 <img src={imgSrc} alt={imgAlt}/>
+                <h1>Welcome</h1>
             </div>
-            <h1>Welcome</h1>
         </div>
     )
 }

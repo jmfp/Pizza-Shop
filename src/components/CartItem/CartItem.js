@@ -8,7 +8,6 @@ export default function CartItem(props){
     const [itemQuantity, setItemQuantity] = useState(Number(props.quantity))
     const handleNumberChange = function(event){
         setItemQuantity(event.target.value);
-
     }
     return(
         <div className="cart-item-container">
@@ -20,7 +19,6 @@ export default function CartItem(props){
                 <div className="cart-item-box">
                     <p>{props.itemName}</p>
                     <p>${props.itemPrice}</p>
-
                 </div>
                 <div className='cart-item-box'>
                     <input type="number" placeholder={props.quantity} style={{maxHeight: '10px', maxWidth: '40px'}} 

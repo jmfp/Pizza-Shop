@@ -15,6 +15,12 @@ import Admin from './screens/Admin';
 import Header from './components/Header/Header'
 import Menu from './screens/Menu';
 import Login from './screens/Login';
+import Beverages from './screens/Beverages';
+import Sides from './screens/Sides';
+import Salads from './screens/Salads';
+import Desserts from './screens/Desserts';
+import Deals from './screens/Deals'
+import Contact from './screens/Contact';
 
 function App() {
   //test data for items in a cart in JSON format
@@ -45,7 +51,13 @@ function App() {
         <Route path="/add-payment-method" element={<PaymentMethod />}/>
         <Route path="/user-info" element={<UserInfo data={userInfo}/>} />
         <Route path="/employee" element={<Admin />}/>
-        <Route path="menu" element={<Menu />}/>
+        <Route path="/menu" element={<Menu />}/>
+        <Route path="/beverages" element={<Beverages />}/>
+        <Route path="/sides" element={<Sides />} />
+        <Route path="/salads" element={<Salads />} />
+        <Route path="/desserts" element={<Desserts />} />
+        <Route path="/deals" element={<Deals />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
     </div>

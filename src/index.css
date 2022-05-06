@@ -130,12 +130,12 @@ h6 {
 }
 
 .heroImg {
-  height: 300px;
+  height: 100vh;
   overflow: hidden;
 }
 .heroImg img {
-  margin-top: -200px;
-  width: 100%;
+  margin-top: -274px;
+  max-width: 100%;
 }
 
 .home h1 {
