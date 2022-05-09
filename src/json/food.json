@@ -1,0 +1,197 @@
+
+    {
+        "Pizza":[
+        {
+            "itemName" : "Cheese Pizza",
+            "itemPrice" : "9.99",
+            "itemDescription" : "This hand tossed pizza consists of our in- house sauce, paired with a combination of cheeses which creates a classic taste that everyone will enjoy.",
+            "itemImg" : "https://4.bp.blogspot.com/-5r7e-z9LdtM/TzvfkPvhVDI/AAAAAAAAASQ/2BRgQLVaU9M/s1600/piza.jpg",
+            "itemId" : 1
+        },
+        {
+            "itemName" : "Pepperoni Pizza",
+            "itemPrice" : "9.99",
+            "itemDescription" : "Picture our classic style pizza with a twist. This is our hand tossed dough, topped with our in- house sauce where we get creative with a mixed cheese topping, topped by pepperoni's.",
+            "itemImg" : "https://www.dogtownpizza.com/wp-content/uploads/2020/01/picking-slice-of-pepperoni-pizza-picture-id1133727757.jpg",
+            "itemId" : 2
+        },
+        {
+            "itemName" : "Supreme Pizza",
+            "itemPrice" : "9.99",
+            "itemDescription" : "This pizza takes on our signature style with toppings that include peperoni, beef, mushrooms, red onions, and green peppers.",
+            "itemImg" : "https://restaurantclicks.com/wp-content/uploads/2021/09/tasty-supreme-pizza-with-olives-peppers-onions-and-sausage.jpg",
+            "itemId" : 3
+        },
+        {
+            "itemName" : "Meat Lovers Pizza",
+            "itemPrice" : "9.99",
+            "itemDescription" : "Here is a twist for the lovers of our classic Pepperoni pizza. Adding on sausage, bacon, ham, and extra pepperoni.",
+            "itemImg" : "https://popmenucloud.com/cdn-cgi/image/width%3D1920%2Cheight%3D1920%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/agotrydw/ca7cea83-c186-4420-a685-4fd907d46afc.jpeg",
+            "itemId" : 3
+        },
+        {
+            "itemName" : "Hawaiin Pizza",
+            "itemPrice" : "9.99",
+            "itemDescription" : "The debate is real on this one. Our controversial pizza choice. Does pineapple belong on pizza? Only you can decide. Take our classic hand tossed dough, packed with our in-house sauce, blend of cheeses, and add ham, pineapple, and lastly bacon.",
+            "itemImg" : "https://www.simplyrecipes.com/thmb/GhdwJO6kA6DywdFSvGj05EIn5MY=/1777x1333/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__01__Hawaiian-Pizza-Cauliflower-LEAD-1-1c4c1d8f118c412c966443c773fd6fea.jpg",
+            "itemId" : 3
+        },
+        {
+            "itemName" : "Chicken Bacon Tomato",
+            "itemPrice" : "9.99",
+            "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+            "itemImg" : "https://www.iheartnaptime.net/wp-content/uploads/2021/09/I-Heart-Naptime-chicken-bacon-ranch-pizza-3-768x548.jpg",
+            "itemId" : 3
+        }
+        ],
+        "Sides": [
+            {
+                "itemName" : "Breadsticks",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "Our breadsticks are crispy on the outside, fluffy on the inside. Topped with an in-house spice mix, that will be sure to entice your taste buds. Tip: try dipping in our in-house made sauce.",
+                    "itemImg" : "https://www.chewoutloud.com/wp-content/uploads/2020/04/Olive-Garden-Breadsticks-Square.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Chicken Wings",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "Tender bites of breaded chicken, topped with hot buffalo sauce, ranch, feta and mozzarella and cheddar cheese blends.",
+                    "itemImg" : "https://www.licious.in/blog/wp-content/uploads/2020/12/Fried-Chicken-Wing.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Fries",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "crispy thick cut taters fried to perfection in peanut oil lightly seasoned with a side of our homemade ketchup!",
+                    "itemImg" : "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2021-09-Shoestring-Fries%2FKitchnKitchn3835-1_WEB_01",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Chicken Alfredo",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "Grilled chicken, with a creamy alfredo sauce, atop of a pasta.",
+                    "itemImg" : "https://dinnerthendessert.com/wp-content/uploads/2021/05/Chicken-Alfredo-Pasta-4x3-1.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Chicken Primevera",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "fresh baby spinach, diced tomatoes, mushrooms, onions, mixed with penne pasta and alfredo sauce.",
+                    "itemImg" : "https://images.themodernproper.com/billowy-turkey/production/posts/2021/Pasta-Primavera-13.jpg?w=1067&auto=compress%2Cformat&fit=crop&dm=1617893509&s=f6fb5b30c06dc633146548fc08238bcf",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Cheese sticks",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "our classic breadsticks topped with a cheese blend consisting of mozzarella and cheddar cheeses.",
+                    "itemImg" : "https://1.bp.blogspot.com/-rZCXHUq0b04/XXknGfRP1hI/AAAAAAABkhc/mo6DJkGlf1UJQH7dseb7BdRU6FmecDJrACLcBGAsYHQ/s1600/fried%2Bmozzarella.JPG",
+                    "itemId" : 3
+            }
+
+        ],"Desserts": [
+            {
+                "itemName" : "Cinnamon Sticks",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://uploads-ssl.webflow.com/5f2c33abe38b67a3782f7602/5f2c33abe38b67d4b62f7742_cinnamon-breadsticks.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Brownies",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://www.callmepmc.com/wp-content/uploads/2020/08/Best-Chocolate-Chunk-Brownies-500x500.jpg",
+                    "itemId" : 3
+            }
+
+        ],
+        "Beverages": [
+            {
+                "itemName" : "Dr.Pepper",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://www.mashed.com/img/gallery/every-dr-pepper-flavor-ranked-worst-to-best/l-intro-1646929922.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "7-Up",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://live.staticflickr.com/7002/6498451437_e437d275f8_b.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Coca-Cola",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY4NjUxNDMwMjY5MTY3NTEx/coca-cola-wed-like-the-world-to-buy-a-coke-zero----or-a-smartwater.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Pepsi",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "http://justfunfacts.com/wp-content/uploads/2017/05/pepsi.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Root Beer",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://cdn.diffords.com/contrib/bws/2017/10/59db97820771d.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Orange Drank",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "This pizza takes the ultimate twist on things. Forget everything you know about our classic pizza. Forget everything you know about pizza. Add to our classic cheese pizza, roasted chicken, crumbled bacon, and fried tomatoes as the toppings",
+                    "itemImg" : "https://www.kroger.com/product/images/large/left/0004900001423",
+                    "itemId" : 3
+            }
+
+        ],"Salad": [
+            {
+                "itemName" : "Classic Garden",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "A crisp and colorful combination of tomatoes, onions, carrots, cabbage, cheese blends (cheddar cheese and mozzarella), and garlic croutons, all atop a blend of iceberg and romaine lettuce.",
+                    "itemImg" : "https://deliciouslyorganic.net/wp-content/uploads/2019/07/Screen-Shot-2019-07-23-at-11.13.44-AM.png",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Chicken Caeser",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "The makings of a classic: roasted white meat chicken, Parmesan cheese and brioche garlic croutons, all atop a blend of romaine and iceberg lettuce.",
+                    "itemImg" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3P2K9TQZ2Msdkzca57-I15PPea2yC3mRWGw&usqp=CAU",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Antipasto",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "For this salad offering, we jam packed it full of toppings. Toppings range from pepperoni, green peppers, mushrooms, green and black olives, carrots, onions, tomatoes, bacon bits, banana peppers, cheese blend (cheddar and mozzarella cheese) all atop of a blend of romaine and iceberg lettuce.",
+                    "itemImg" : "https://simplyhomecooked.com/wp-content/uploads/2022/02/antipasto-salad-3.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Filet of Chicken Salad",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "offering a choice of grilled or filet chicken pieces, tomatoes, green peppers, onions, cheese blend (provolone and cheddar cheese), all atop a blend of romaine and iceberg lettuce.",
+                    "itemImg" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8_qejwH1TP2pkbxUlgZyn0zeeESP1_2MjGg&usqp=CAU",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "House Salad",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "Tomatoes, green peppers, real bacon, fresh onion all atop of romaine lettuce.",
+                    "itemImg" : "https://cdn3.tmbi.com/toh/GoogleImagesPostCard/Hearty-Italian-Salad_exps165437_SD2856494B12_10_1bC_RMS.jpg",
+                    "itemId" : 3
+            },
+            {
+                "itemName" : "Buffalo Chicken Salad",
+                    "itemPrice" : "9.99",
+                    "itemDescription" : "Spicy buffalo chicken, tomatoes, green peppers, carrots, onions, cheese blend (provolone and cheddar cheese), bacon all atop our blend of romaine and iceberg lettuce.",
+                    "itemImg" : "https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/ybgdhwcu/8a4044ec-c90d-431e-853a-f33139d0e8cc.jpg",
+                    "itemId" : 3
+            }
+
+        ]
+    }

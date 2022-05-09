@@ -15,7 +15,7 @@ export default function CustomPizza(props){
     const addItemToCart = function(props){
         //add a new pizza to the cart with a price of all of the ingredients together + 4.99, this is just test data, we can set this later
         //for now, all ingredients are 99 cents for testing
-        setIemsInCart([...itemsInCart, {"itemName": "Custom Pizza", "itemPrice": `24.99`, "quantity": `2`}]);
+        setIemsInCart([...itemsInCart, `${props.cartItem}`]);
         console.log(itemsInCart);
     }
     return(

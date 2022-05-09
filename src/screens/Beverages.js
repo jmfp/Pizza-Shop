@@ -6,22 +6,15 @@ import SingleItem from '../components/SingleItem/SingleItem';
 import '../screens/css/Products.css'
 
 export default function Beverages(props){
-    const[beverageList, setBeverageList] = useState();
-    let bevs = [
-        {"itemName": "Pizza", "itemPrice": "5.99", "img": 'https://pizzashopco.com:2083/cpsess1890657713/viewer/home/teambrown/img/Beverages/Dr_Pepper_modern.svg.png?login=1&post_login=87761323367619'},
-        {"itemName": "Dr Pepper", "itemPrice": "2.99", "img": 'https://pizzashopco.com:2083/cpsess1890657713/viewer/home/teambrown/img/Beverages/Dr_Pepper_modern.svg.png?login=1&post_login=87761323367619'},
-        {"itemName": "7up", "itemPrice": "2.99", "img": 'https://pizzashopco.com:2083/cpsess1890657713/viewer/home/teambrown/img/Beverages/Dr_Pepper_modern.svg.png?login=1&post_login=87761323367619'},
-        {"itemName": "Coke", "itemPrice": "2.99", "img": 'https://pizzashopco.com:2083/cpsess1890657713/viewer/home/teambrown/img/Beverages/Dr_Pepper_modern.svg.png?login=1&post_login=87761323367619'},
-        {"itemName": "Pepsi", "itemPrice": "2.99", "img": 'https://m.media-amazon.com/images/I/71iPemjZX1L._SX425_PIbundle-6,TopRight,0,0_AA425SH20_.jpg'},
-        {"itemName": "Large Soda", "itemPrice": "2.99", "img": 'https://pizzashopco.com:2083/cpsess1890657713/viewer/home/teambrown/img/Beverages/Dr_Pepper_modern.svg.png?login=1&post_login=87761323367619'},
-      ]
+    let data = require('../json/food.json');
+    //const[beverageList, setBeverageList] = useState();
 
     return(
         <div className='product-grid'>
             {props.children}
-            <Grid width="90" height="90" gap="10" rowDimensions="2fr 2fr 2fr 2fr" columnDimensions="7fr 7fr 7fr">
-                {bevs.map((item) => 
-                    <SingleItem style='product-container' name={item.itemName} price={item.itemPrice} img={item.img} imgClass="product-image"/>
+            <Grid width="90" height="90" gap="10" rowDimensions="700px 700px" columnDimensions="5fr 5fr 5fr">
+                {data.Beverages.map((item) => 
+                    <SingleItem style='product-container' name={item.itemName} price={item.itemPrice} img={item.itemImg} imgClass="product-image"/>
                 )}
             </Grid>
         </div>

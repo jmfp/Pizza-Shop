@@ -19,9 +19,9 @@ const Header = () => {
                 <Link to='/salads' style={{textDecoration: "none", padding: "0px 5px"}}>Salads</Link>
                 <Link to='/desserts' style={{textDecoration: "none", padding: "0px 5px"}}>Desserts</Link>
                 <Link to="/beverages" style={{textDecoration: "none", padding: "0px 5px" }}>Beverages</Link>
-                <Link to='/deals' style={{textDecoration: "none", padding: "0px 5px"}}>Deals</Link>
+                {/*<Link to='/deals' style={{textDecoration: "none", padding: "0px 5px"}}>Deals</Link>
                 <Link to="/cart" style={{textDecoration: "none", padding: "0px 5px"}}>Cart</Link>
-                <Link to='/login' style={{textDecoration: "none", padding: "0px 5px"}}>Login</Link>
+                <Link to='/login' style={{textDecoration: "none", padding: "0px 5px"}}>Login</Link>*/}
                 <Link to='/contact' style={{textDecoration: "none", padding: "0px 5px"}}>Contact</Link>       
             </ul>
 
